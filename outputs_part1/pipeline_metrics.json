@@ -1,0 +1,10 @@
+{
+  "part1": {
+    "lid_english_frames": 59991,
+    "lid_hindi_frames": 10,
+    "lid_switches": 19,
+    "ngram_vocab_size": 129,
+    "runtime_whisper_model": "small",
+    "transcript_segments": 77
+  }
+}

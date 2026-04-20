@@ -1,0 +1,86 @@
+{
+  "anti_spoofing_cm": {
+    "eer": 0.45,
+    "eer_threshold": 0.4598,
+    "bona_fide_mean_score": 0.4569,
+    "spoof_mean_score": 0.4263,
+    "num_bona_fide": 10,
+    "num_spoof": 10
+  },
+  "adversarial_fgsm": {
+    "minimum_epsilon": 1e-05,
+    "snr_threshold_db": 40.0,
+    "sweep": [
+      {
+        "epsilon": 1e-05,
+        "snr_db": 81.42,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": true
+      },
+      {
+        "epsilon": 5e-05,
+        "snr_db": 67.44,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": true
+      },
+      {
+        "epsilon": 0.0001,
+        "snr_db": 61.42,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": true
+      },
+      {
+        "epsilon": 0.0005,
+        "snr_db": 47.44,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": true
+      },
+      {
+        "epsilon": 0.001,
+        "snr_db": 41.42,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": true
+      },
+      {
+        "epsilon": 0.005,
+        "snr_db": 27.44,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": false
+      },
+      {
+        "epsilon": 0.01,
+        "snr_db": 21.42,
+        "predicted_class": 1,
+        "attack_success": true,
+        "inaudible_snr_ok": false
+      }
+    ]
+  },
+  "switch_confusion_matrix": {
+    "confusion_matrix": [
+      [
+        538,
+        12
+      ],
+      [
+        12,
+        438
+      ]
+    ],
+    "switch_tp": 5,
+    "switch_fp": 48,
+    "switch_fn": 0,
+    "switch_precision": 0.0943,
+    "switch_recall": 1.0,
+    "switch_f1": 0.1724,
+    "tolerance_ms": 200.0,
+    "n_true_switches": 5,
+    "n_pred_switches": 53
+  }
+}

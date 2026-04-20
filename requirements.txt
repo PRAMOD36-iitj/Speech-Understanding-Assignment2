@@ -1,0 +1,26 @@
+# ==========================================
+# Speech Understanding Assignment - Pipeline
+# ==========================================
+
+# Core Machine Learning & Math
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio Processing & I/O
+soundfile>=0.12.1
+librosa>=0.10.0
+
+# Speech Models & Tokenizers
+transformers>=4.35.0
+openai-whisper>=20231106
+speechbrain>=1.1.0
+sentencepiece>=0.2.0
+
+# General Utilities
+tqdm>=4.65.0
+
+# Automated Report Generation (Implementation Notes)
+reportlab>=4.0.0
+python-docx>=1.0.0

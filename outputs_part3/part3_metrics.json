@@ -1,0 +1,32 @@
+{
+  "reference_duration_s": 60.0,
+  "reference_duration_exact_60s": true,
+  "lecture_target_duration_s": 600.0,
+  "mcd_proxy_db": 623.9099,
+  "mcd_db": 623.9099,
+  "mcd_is_proxy": true,
+  "mcd_reference_note": "Proxy only; compared against student reference with different spoken content.",
+  "vocoder_reconstruction_mcd_db": 626.3997,
+  "output_duration_s": 600.0,
+  "sample_rate_hz": 22050,
+  "sample_rate_requirement_met": true,
+  "speaker_embedding_dim": 512,
+  "tts_backend": "speecht5",
+  "input_segment_count": 77,
+  "scheduled_segment_count": 77,
+  "unique_source_segment_count": 77,
+  "content_reused_to_fill_target": false,
+  "quality_needs_improvement": true,
+  "content_needs_full_length_source": false,
+  "next_step_recommendation": "Improve Part III audio quality further.",
+  "status_lines": [
+    "Part III quality target (<8.0 dB) met: False",
+    "Part III uses repeated content to fill lecture target: False",
+    "Part III sample-rate requirement met: True",
+    "Part III duration target met: True",
+    "Next recommended focus: Improve Part III audio quality further."
+  ],
+  "target_duration_s": 600.0,
+  "duration_error_s": 0.0,
+  "duration_requirement_met": true
+}
